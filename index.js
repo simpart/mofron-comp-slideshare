@@ -6,8 +6,6 @@
  * @author simpart
  */
 const mf    = require('mofron');
-const Text  = require("mofron-comp-text");
-const Click = require("mofron-event-click");
 
 mf.comp.SlideShare = class extends mf.Component {
     /**
@@ -22,7 +20,7 @@ mf.comp.SlideShare = class extends mf.Component {
         try {
             super();
             this.name('SlideShare');
-	    this.pmap("src");
+	    this.prmMap("src");
             this.prmOpt(po);
         } catch (e) {
             console.error(e.stack);
