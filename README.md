@@ -19,7 +19,8 @@ npm install mofron  mofron-comp-slideshare
     <tag module="mofron-comp-slideshare">SlideShare</tag>
 </require>
 
-<SlideShare name=slide_mod src="//www.slideshare.net/slideshow/embed_code/key/FEMhsyd6vq2yTt" width="400" height="300" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border-width:1px;max-width:100%;" visible=false></SlideShare>
+<SlideShare src="//www.slideshare.net/slideshow/embed_code/key/FEMhsyd6vq2yTt" width="400" height="300" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border-width:1px;max-width:100%;">
+</SlideShare>
 ```
 # Parameter
 
